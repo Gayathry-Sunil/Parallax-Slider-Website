@@ -1,0 +1,139 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  scroll-behavior: smooth; 
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  background: #4a90e2;
+  color: white;
+  padding: 60px 20px; 
+  position: relative;
+  z-index: 1; 
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  line-height: 1.2;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2; 
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #ff6f61;
+}
+
+.about-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  margin-top: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+.parallax-section {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-content {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.parallax-content h2 {
+  margin-top: 0;
+}
+
+.slider-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider-section h2 {
+  margin-top: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+.slider-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 15px;
+}
+
+.slick-next {
+  right: 15px;
+}
